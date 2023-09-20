@@ -1,0 +1,39 @@
+// Place all the styles related to the balls controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.new-post-box{
+    border: solid black;
+    margin: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+.new-post{
+    display       : inline-block;
+    border-radius : 27%;          /* 角丸       */
+    font-size     : 26pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 14px 81px;   /* 余白       */
+    background    : #0000b3;     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+    border        : 2px solid #0000b3;    /* 枠の指定 */
+    }
+.new-post:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : #0000b3;     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+}
+
+.map{
+    text-align: center;
+    margin: 0px 100px 0px 100px;
+}
